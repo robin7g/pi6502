@@ -40,6 +40,26 @@ sudo ./pi6502
 ```
 
 The system should startup and show a `\` prompt. 
+
 There is no physical reset switch but you can reset the system by typing/pressing `Ctrl + A`
+
+Try the following
+
+```
+\
+E000R
+
+E000: 4C
+>10 PRINT "HELLO WORLD"
+>20 GOTO 10
+>RUN
+```
+
+The program will run in an infinte loop so to stop it press `Ctrl+A`
+
+
+
+
+
 
 
