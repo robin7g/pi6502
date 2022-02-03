@@ -27,7 +27,7 @@ http://retro.hansotten.nl/6502-sbc/apple-1/
 
 ## Building 
 
-As simple as running Make, the output is a executable called pi6502
+To build its as simple as running make, the output is a executable called pi6502
 ```
 make 
 ```
