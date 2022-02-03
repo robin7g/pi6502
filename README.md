@@ -39,6 +39,7 @@ You need to run the program as root so that it has access to the GPIOs
 sudo ./pi6502
 ```
 
-The system should startup and show a `\` prompt. There is no physical reset switch but you can reset the system by typing/pressing `Ctrl + A`
+The system should startup and show a `\` prompt. 
+There is no physical reset switch but you can reset the system by typing/pressing `Ctrl + A`
 
 
