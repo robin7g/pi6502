@@ -17,7 +17,28 @@ A part of the objective of this project was to see if the Pi can operate fast en
 
 ## Pre-requisities 
 
+You need a Raspberry Pi. I used a Pi Zero W 2 with Raspbian installed to build this project. Run the following command to install the necessary packages. 
+
+```
+sudo apt-get install gcc make cc65 libncurses5-dev libncursesw5-dev
+```
+If you want to install Integer Basic then download apple1basic.bin from the following source and place in the root folder of the project. 
+http://retro.hansotten.nl/6502-sbc/apple-1/
+
 ## Building 
 
+As simple as running Make, the output is a executable called pi6502
+```
+make 
+```
+
 ## Running 
+You need to run the program as root so that it has access to the GPIOs
+
+```
+sudo ./pi6502
+```
+
+The system should startup and show a `\` prompt. There is no physical reset switch but you can reset the system by typing/pressing `Ctrl + A`
+
 
