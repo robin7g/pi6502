@@ -19,7 +19,7 @@ A part of the objective of this project was to see if the Pi can operate fast en
 ![6502 Hat pin connections](doc/PinConnections.jpg)
 
 ### Wiring
-![6502 Hat pin connections](doc/Pi6502Schematic.jpg)
+![6502 Hat pin connections](doc/Pi6502Schematic.jpg "Link to wiring diagram")
 
 
 ## Pre-requisities 
