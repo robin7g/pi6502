@@ -54,6 +54,7 @@ The system should startup and show a `\` prompt.
 
 There is no physical reset switch but you can reset the system by typing/pressing `Ctrl+A`
 
+
 Try the following
 
 ```
