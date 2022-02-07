@@ -12,6 +12,10 @@ I found this cool pi86 project https://github.com/homebrew8088/pi86 which implem
 
 A part of the objective of this project was to see if the Pi can operate fast enough to run the memory bus and create a 4.7 MHz clock. To do this you have to memory map the GPIOs and a few other tricks to save time. I used a 6502 to prototype this while I wait for my Pi86 board to arrive. I'll post a video of the Apple 1 working soon. 
 
+ Raspberry Pi Zero W2  Max Attained Clock **1.7 MHz**
+ Raspberry Pi 4 (4GB) Max Attained Clock **2.6 MHz**
+
+These results are pretty good considering the Rockwell 6502 I am using is only rated to 1 MHz. I have ordered some Western Design Centre W65C02S6TPG-14 which are rated up to 8 MHz at 3.3v
 
 ## Pi6502 Schematic 
 
