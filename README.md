@@ -15,7 +15,7 @@ A part of the objective of this project was to see if the Pi can operate fast en
 * Raspberry Pi Zero W2, working Apple 1 max clock **1.7 MHz**
 * Raspberry Pi 4 (4GB), working Apple 1 max clock **2.6 MHz**
 
-These results are pretty good considering the Rockwell 6502 I am using is only rated to 1 MHz. I have ordered some Western Design Centre W65C02S6TPG-14 which are rated up to 8 MHz at 3.3v. There is likely some multithreading and code level optimizations that can get us up to the 4.7 MHz level. 
+These results are pretty good considering the Rockwell R6502P I am using is only rated to 1 MHz. I have ordered some Western Design Centre W65C02S6TPG-14 which are 6502 processors rated up to 8 MHz at 3.3v. There is likely some multithreading and code level optimizations that can get us up to the 4.7 MHz level. 
 
 ## Pi6502 Schematic 
 
