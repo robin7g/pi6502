@@ -33,7 +33,9 @@ You need a Raspberry Pi. I used a Pi Zero W 2 with Raspbian installed to build t
 ```
 sudo apt-get install gcc make cc65 libncurses5-dev libncursesw5-dev
 ```
-If you want to install Integer Basic then download apple1basic.bin from the following source and place in the root folder of this project. 
+If you want to install Apple Integer Basic then download basic.rom or apple1basic.bin from the following source and place in the root folder of this project. The code expects a 4096 byte rom image called apple1basic.bin which it will load into addres E000. To run based execute `E000R` at the prompt. 
+
+https://github.com/jscrane/Apple1/blob/master/images/basic.rom
 http://retro.hansotten.nl/6502-sbc/apple-1/
 
 ## Building 
