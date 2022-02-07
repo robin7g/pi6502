@@ -79,7 +79,7 @@ The program will run in an infinte loop so to stop it press `Ctrl+A`
 
 ## Troubleshooting
 
-I spent time debugging a particular Raspberry Pi 4 that was not working. Very weird symptons rather than a `\` prompt it showed `L`, nothing was working right. After hours I realised the case *Argon ONE V2* uses GPIO 4 , 22 and 23 for its fan control and unforutunaltey this means this case is not compatible with this project. I fixed the issue by removing the csase from the Pi. 
+I spent time debugging a particular Raspberry Pi 4 that was not working. Very weird symptons rather than a `\` prompt it showed `L`, nothing was working right. After hours I realised the case *Argon ONE V2* uses GPIO 4 , 22 and 23 for its fan control and unforutunaltey this means this case is not compatible with this project. I fixed the issue by removing the case from the Pi. This project uses all the GPIOs so there are none spare for other things... 
 
  
 
