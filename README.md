@@ -35,8 +35,8 @@ sudo apt-get install gcc make cc65 libncurses5-dev libncursesw5-dev
 ```
 If you want to install Apple Integer Basic then download basic.rom or apple1basic.bin from the following source and place in the root folder of this project. The code expects a 4096 byte rom image called apple1basic.bin which it will load into addres E000. To run based execute `E000R` at the prompt. 
 
-https://github.com/jscrane/Apple1/blob/master/images/basic.rom
-http://retro.hansotten.nl/6502-sbc/apple-1/
+* https://github.com/jscrane/Apple1/blob/master/images/basic.rom
+* http://retro.hansotten.nl/6502-sbc/apple-1/
 
 ## Building 
 The build is setup to compile for a Raspberry Pi 3 or Raspberry Pi Zero W2. If you want to compile for a Raspberry Pi 4 you need to edit `line 42` of `pi6502.c` and set the Raspberry Pi model version. Its possible to write code to detect the Pi model but I wanted to keep it simple. 
