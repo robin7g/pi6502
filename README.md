@@ -22,9 +22,6 @@ These results are pretty good considering the Rockwell R6502P I am using is only
 ### 6502 pinout
 ![6502pins](doc/6502pinout.jpg) 
 
-### Raspberry Pi 40 pin header pinout
-![RpiHeaderPins](doc/RpiHeaderPinout.jpg)
-
 ### Pin Connections
 ![6502 Hat pin connections](doc/PinConnections.jpg)
 
